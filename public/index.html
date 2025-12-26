@@ -1,0 +1,199 @@
+﻿<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="disboy / @disboyrbx - videos and links." />
+    <title>disboy | Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-orbit" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="logo">disboy</div>
+      <nav class="nav">
+        <a href="#videos">Videos</a>
+        <a href="#links">Links</a>
+      </nav>
+      <div class="header-actions">
+        <button class="mode-toggle" type="button" data-theme-toggle aria-pressed="false">Dark</button>
+        <a
+          href="https://www.youtube.com/@disboyrbx?sub_confirmation=1"
+          target="_blank"
+          rel="noopener"
+          class="chip"
+          >Subscribe</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="dashboard" aria-label="channel dashboard">
+        <div class="panel primary" data-reveal>
+          <div class="panel-head">
+            <span class="panel-label">Channel Snapshot</span>
+            <div class="ticker">
+              <div class="ticker-track" data-ticker>Loading ···</div>
+            </div>
+          </div>
+          <div class="identity">
+            <div class="avatar-shell">
+              <div class="avatar" data-avatar></div>
+              <span class="avatar-ring"></span>
+            </div>
+            <div class="id">
+              <h1>disboy</h1>
+              <p class="handle">@disboyrbx</p>
+              <div class="tags">
+                <span class="tag">Roblox</span>
+                <span class="tag">Challenge</span>
+                <span class="tag">Shorts</span>
+              </div>
+            </div>
+          </div>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span data-stat="subscribers">-</span>
+              <p>登録者数</p>
+            </div>
+            <div class="stat-card">
+              <span data-stat="videos">-</span>
+              <p>動画本数</p>
+            </div>
+            <div class="stat-card">
+              <span data-stat="views">-</span>
+              <p>総再生数</p>
+            </div>
+          </div>
+          <div class="meta-grid">
+            <div>
+              <span>Channel ID</span>
+              <strong data-stat="channelId">-</strong>
+            </div>
+            <div>
+              <span>Updated</span>
+              <strong data-stat="updated">-</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel secondary" data-reveal>
+          <div class="signal">
+            <div class="signal-head">
+              <span>Signal</span>
+              <strong>Shorts</strong>
+            </div>
+            <div class="signal-bars" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="stack">
+            <div class="stack-card">
+              <span>Source</span>
+              <strong>YouTube</strong>
+            </div>
+            <div class="stack-card">
+              <span>Handle</span>
+              <strong>@disboyrbx</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="videos" class="section" aria-labelledby="videos-title">
+        <div class="section-head">
+          <h2 id="videos-title">Videos</h2>
+        </div>
+        <div class="video-grid">
+          <article class="video-card" data-reveal>
+            <a href="http://www.youtube.com/watch?v=4VqHigiizOI" target="_blank" rel="noopener">
+              <div
+                class="thumb"
+                style="background-image: url('https://img.youtube.com/vi/4VqHigiizOI/hqdefault.jpg');"
+              ></div>
+              <div class="video-body">
+                <h3>最後はえぐい！！！ #ロブロックス</h3>
+              </div>
+            </a>
+          </article>
+
+          <article class="video-card" data-reveal>
+            <a href="http://www.youtube.com/watch?v=iidPQemDppw" target="_blank" rel="noopener">
+              <div
+                class="thumb"
+                style="background-image: url('https://img.youtube.com/vi/iidPQemDppw/hqdefault.jpg');"
+              ></div>
+              <div class="video-body">
+                <h3>みんなも気を付けよう!!! #ロブロックス</h3>
+              </div>
+            </a>
+          </article>
+
+          <article class="video-card" data-reveal>
+            <a href="http://www.youtube.com/watch?v=EiX0sGTvv5Y" target="_blank" rel="noopener">
+              <div
+                class="thumb"
+                style="background-image: url('https://img.youtube.com/vi/EiX0sGTvv5Y/hqdefault.jpg');"
+              ></div>
+              <div class="video-body">
+                <h3>みんなは全部できた？#ブレインロット</h3>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="links" class="section" aria-labelledby="links-title">
+        <div class="section-head">
+          <h2 id="links-title">Links</h2>
+        </div>
+        <div class="community-grid">
+          <a
+            class="community-card"
+            data-reveal
+            href="https://www.youtube.com/@disboyrbx"
+            target="_blank"
+            rel="noopener"
+          >
+            <h3>YouTube</h3>
+            <span>@disboyrbx</span>
+          </a>
+          <a class="community-card" data-reveal href="#" target="_blank" rel="noopener">
+            <h3>X</h3>
+            <span>@disboyrbx</span>
+          </a>
+          <a class="community-card" data-reveal href="#" target="_blank" rel="noopener">
+            <h3>TikTok</h3>
+            <span>@disboyrbx</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>disboy</strong>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.youtube.com/@disboyrbx" target="_blank" rel="noopener">YouTube</a>
+        <a href="#" target="_blank" rel="noopener">X</a>
+        <a href="#" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
