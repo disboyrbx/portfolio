@@ -178,8 +178,7 @@ const parseCount = (text) => {
     const value = parseFloat(normalized.replace(/[Bb].*/g, ''));
     return Math.round(value * 1000000000);
   }
-  const digits = normalized.replace(/[^
-\d]/g, '').replace(/\s+/g, '');
+  const digits = normalized.replace(/[^\d]/g, '').replace(/\s+/g, '');
   return digits ? parseInt(digits, 10) : null;
 };
 
